@@ -3,6 +3,7 @@
     --slate300: hsl(212, 45%, 89%);
     --slate500: hsl(216, 15%, 48%);
     --slate900: hsl(218, 44%, 22%);
+    --attribution-color: hsl(228, 45%, 44%);
 }
 
 * {
@@ -12,12 +13,18 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: var(--slate300);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -57,11 +64,12 @@ p {
 }
 
 .attribution {
-    margin-top: 20px;
     font-size: 11px;
-    text-align: center;
+    height: 2.5rem;
+    margin-top: auto;
+    align-content: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution-color);
 }

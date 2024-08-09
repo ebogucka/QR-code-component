@@ -29,5 +29,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [StronaFirmy.pl](https://stronafirmy.pl)
+- GitHub - [@ebogucka](https://github.com/ebogucka)
 - Frontend Mentor - [@ebogucka](https://www.frontendmentor.io/profile/ebogucka)
